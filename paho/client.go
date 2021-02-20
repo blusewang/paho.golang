@@ -311,7 +311,7 @@ func (c *Client) Incoming() {
 				}
 			case packets.PUBLISH:
 				pb := recv.Content.(*packets.Publish)
-				go c.Router.Route(pb)
+				c.Router.Route(pb)
 				switch pb.QoS {
 				case 1:
 					pa := packets.Puback{
