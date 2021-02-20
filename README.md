@@ -9,13 +9,13 @@ Installation and Build
 This client is designed to work with the standard Go tools, so installation is as easy as:
 
 ```golang
-go get github.com/eclipse/paho.golang
+go get github.com/blusewang/paho.golang
 ```
 
 Reporting bugs
 --------------
 
-Please report bugs by raising issues for this project in github [https://github.com/eclipse/paho.golang/issues](https://github.com/eclipse/paho.golang/issues)
+Please report bugs by raising issues for this project in github [https://github.com/blusewang/paho.golang/issues](https://github.com/blusewang/paho.golang/issues)
 
 More information
 ----------------

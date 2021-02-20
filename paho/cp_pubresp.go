@@ -1,6 +1,6 @@
 package paho
 
-import "github.com/eclipse/paho.golang/packets"
+import "github.com/blusewang/paho.golang/packets"
 
 type (
 	// PublishResponse is a generic representation of a response

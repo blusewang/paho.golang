@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	"github.com/eclipse/paho.golang/packets"
+	"github.com/blusewang/paho.golang/packets"
 )
 
 type fakeAuth struct{}
